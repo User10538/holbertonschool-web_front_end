@@ -172,7 +172,7 @@ a:active{
 
 .card-work:hover .card-title{
     opacity: 1;
-    transform: scale(1.2);
+    scale: scale(1.2);
 }
 
 
