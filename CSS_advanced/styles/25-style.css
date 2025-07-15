@@ -121,7 +121,7 @@ a:active{
     --text-color:var(--color-white);
     --section-title-color:var(--color-white);
     background: var(--color-black);
-    
+
     --button-color: var(--color-white);
 }
 
@@ -248,7 +248,7 @@ ul.row{
 .button{
     display: var(--button-display);
     padding: var(--button-padding);
-    border-style: var(--button-border);
+    border: var(--button-border);
     size: var(--button-font-size);
     color: var(--button-color);
     text-decoration: var(--button-text-decoration);
