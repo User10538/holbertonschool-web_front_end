@@ -22,6 +22,10 @@ a[href]:hover:active {
     background-color: color-light-grey;      
 }
 
+a:link{
+
+}
+
 a[href]:visited {
   font-style: italic;
 }
