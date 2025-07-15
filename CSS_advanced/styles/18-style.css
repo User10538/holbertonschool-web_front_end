@@ -162,7 +162,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-.navitem{
+.nav .navitem{
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
@@ -174,7 +174,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: var(nav-item-margin);
 }
 
-.navlink:hover{
+.nav .navlink:hover{
     display: block;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
