@@ -136,7 +136,7 @@ a:active{
     padding-top: 45%;
 }
 
-.card-work .card-title::after{
+.card-work .card-title a::after{
     position: absolute;
     position: 0;
     content: "";
