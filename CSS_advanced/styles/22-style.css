@@ -38,7 +38,7 @@ a:hover{
 }
 
 a:active{
-    background-color: var(--color-black);
+    background-color: var(--color-light-grey);
 }
 
 .visually-hidden{
@@ -100,13 +100,19 @@ a:active{
     margin-right: auto;
 }
 
+[data-section-theme="dark"]{
+    --text-color:var(--color-white);
+    --section-title-color:var(color-white);
+    background: var(--color-black);
+}
+
 :root{
     --color-primary: #d73953;
     --color-black: #090909;
     --color-white: #ffffff;
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
-    --text-color: var(--color-white);
+    --text-color: var(--color-black);
 
     --font-family-base: "Open Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
     --font-family-title: "Raleway", Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -127,7 +133,7 @@ a:active{
     --section-header-align: center;
     --section-tagline-transform: uppercase;
     --section-title-margin: 0;
-    --section-title-color:var(--color-white);
+    --section-title-color:var(--color-black);
 
     --font-weight-bold: bold;
 
@@ -221,8 +227,4 @@ ul.row{
 
 .footer ul{
     text-align: right;
-}
-
-.data-section-theme{
-    
 }
