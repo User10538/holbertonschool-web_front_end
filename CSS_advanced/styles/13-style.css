@@ -18,10 +18,12 @@ a{
 }
 
 a[href]:hover:active {
-    font: Italicize;
     text-decoration: underline;
-    background-color: color-light-grey;    
-  
+    background-color: color-light-grey;      
+}
+
+a[href]:visited {
+  font-style: italic;
 }
 
 .visually-hidden{
