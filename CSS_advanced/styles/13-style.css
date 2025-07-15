@@ -17,6 +17,10 @@ a{
     text-decoration: none;
 }
 
+a:link {
+  /* Can be empty or include default styles */
+}
+
 a[href] {
     
 }
