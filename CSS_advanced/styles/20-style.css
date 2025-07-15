@@ -204,7 +204,7 @@ ul.row{
     padding: 0.5rem;
 }
 
-.row{
+.row::after{
     content: "";
     display: table;
     float: none;
