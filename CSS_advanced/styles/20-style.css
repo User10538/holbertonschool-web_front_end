@@ -205,7 +205,6 @@ ul.row{
 }
 
 .row{
-    content: none;
     display: table;
     float: none;
 }
