@@ -18,7 +18,7 @@ a{
 }
 
 a:link {
-  /* Can be empty or include default styles */
+  color: initial;
 }
 
 a[href] {
