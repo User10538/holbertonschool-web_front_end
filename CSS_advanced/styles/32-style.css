@@ -402,8 +402,7 @@ ul.row{
     background: var(--button-hover-background);
     
     transition-property: var(--transition-property);
-    color: var(--transition-property);
-    background-color: var(--transition-property);
+    transition-duration: var(--transition-duration);
     
 }
 
