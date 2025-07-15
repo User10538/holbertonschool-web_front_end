@@ -169,9 +169,9 @@ h1, h2, h3, h4, h5, h6 {
     text-spacing-trim: var(-- nav-item-letter-spacing);
     display: var(--nav-item-display);
     margin-top: var(--nav-item-margin);
-    margin-bottom: var(nav-item-margin);
-    margin-left: var(nav-item-margin);
-    margin-right: var(nav-item-margin);
+    margin-bottom: var(--nav-item-margin);
+    margin-left: var(--nav-item-margin);
+    margin-right: var(--nav-item-margin);
 }
 
 .nav .nav-link:hover{
