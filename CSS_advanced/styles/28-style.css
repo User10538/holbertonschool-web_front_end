@@ -16,7 +16,7 @@ html{
 }
 
 .header-logo{
-    --header-logo: var(--header-logo-position);
+    position: var(--header-logo-position);
 }
 
 .header-logo a{
