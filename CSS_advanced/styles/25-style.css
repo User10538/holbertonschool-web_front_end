@@ -249,7 +249,7 @@ ul.row{
     display: var(--button-display);
     padding: var(--button-padding);
     border: var(--button-border);
-    size: var(--button-font-size);
+    font-size: var(--button-font-size);
     color: var(--button-color);
     text-decoration: var(--button-text-decoration);
 
