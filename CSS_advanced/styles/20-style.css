@@ -208,6 +208,7 @@ ul.row{
     content: "";
     display: table;
     float: none;
+    clear: both;
 }
 
 .footer-copyright{
