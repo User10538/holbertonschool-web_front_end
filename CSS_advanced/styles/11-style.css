@@ -33,7 +33,7 @@ a{
     color: var(--color-primary);
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
-    font-weight: bold; 
+    font-weight: var(--font-weight-bold); 
 
 }
 
@@ -64,7 +64,7 @@ a{
     --section-header-align: center;
     --section-tagline-transform: uppercase;
 
-    --font-weight-bold: ;
+    --font-weight-bold: bold;
 }
 
 h1, h2, h3, h4, h5, h6 {
