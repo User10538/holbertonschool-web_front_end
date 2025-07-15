@@ -4,7 +4,7 @@ html{
 
 body{
     color: var(text-color);
-    font: font-family-base;
+    font: var(--font-family-base);
 }
 
 a{
