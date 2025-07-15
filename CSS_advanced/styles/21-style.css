@@ -198,11 +198,11 @@ ul.row{
 }
 
 .col-1-2{
-    /* properties removed */
+    all: unset;
 }
 
 .col-1-3{
-    /* properties removed */
+    all: unset;
 }
 
 .row::after{
