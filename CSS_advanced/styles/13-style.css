@@ -17,17 +17,20 @@ a{
     text-decoration: none;
 }
 
-a[href]:hover:active {
-    text-decoration: underline;
-    background-color: color-light-grey;      
-}
-
-a:link{
-
+a[href] {
+    
 }
 
 a[href]:visited {
   font-style: italic;
+}
+
+a[href]:hover{
+    text-decoration: underline;
+}
+
+a[href]:active{
+    color: var(--color-light-grey);
 }
 
 .visually-hidden{
