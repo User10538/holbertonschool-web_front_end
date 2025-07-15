@@ -276,8 +276,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav .nav-link:hover::before {
-  color: var(--nav-item-link-hover);
-
+    
   background-color: var(--color-primary);
   width: 100%;
   
